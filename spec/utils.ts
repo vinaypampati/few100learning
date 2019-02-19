@@ -1,1 +1,3 @@
-export const add = (a:number, b:number) => a + b;
+export function formatName(first: string, last: string, fn: any) {
+    return fn(`${last}, ${first}`);
+}
